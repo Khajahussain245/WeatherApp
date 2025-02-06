@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRtvYyrcAVxlAHyb38epm7gK64edCgfF0sHMw&s">
+</head>
+<body>
+    <div class="container">
+        <div class="title">
+            <h1>Weather App</h1>
+        </div>
+        <div class="input">
+            <input type="text" id="location-input" placeholder="Location..." autocomplete="off">
+            <input type="button" value="Get" id="btn">
+        </div>
+        <div class="info">
+            <img src="https://www.freeiconspng.com/uploads/cloud-outline-icon-22.png" alt="" id="icon">
+            <div class="temp"><span id="temp_value">25</span><span id="unit">&#176</span><span id="c">C</span></div>
+            <div id="Weather-desc">Cloudy</div>
+            <div id="location">Hyderabad</div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
